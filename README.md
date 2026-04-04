@@ -43,9 +43,8 @@ const jake = {
 ```
   ┌──────────────────────────────────────────┐
   │  1,280+  commits (personal + work)       │
-  │    900+  commits at startup              │
-  │    388   personal project commits        │
-  │   960K+  lines of code written           │
+  │  1.33M+  lines of code added             │
+  │  2.38M+  total lines touched             │
   │      4   AI products shipped             │
   │    2M+   customer contacts/year          │
   │      3   continents launched             │
