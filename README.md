@@ -109,22 +109,48 @@ const jake = {
 
 ### `> projects --featured`
 
-<div align="center">
+<table>
+<tr>
+<td width="50%">
 
-<a href="https://github.com/jam3gw/deep-research-assistant">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=jam3gw&repo=deep-research-assistant&hide_border=true&bg_color=0d1117&title_color=0055ff&icon_color=0055ff&text_color=aaa" />
-</a>
-<a href="https://github.com/jam3gw/agentic-service-bot">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=jam3gw&repo=agentic-service-bot&hide_border=true&bg_color=0d1117&title_color=0055ff&icon_color=0055ff&text_color=aaa" />
-</a>
-<a href="https://github.com/jam3gw/anthropic-math-tutor">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=jam3gw&repo=anthropic-math-tutor&hide_border=true&bg_color=0d1117&title_color=0055ff&icon_color=0055ff&text_color=aaa" />
-</a>
-<a href="https://github.com/jam3gw/jake-moses-com">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=jam3gw&repo=jake-moses-com&hide_border=true&bg_color=0d1117&title_color=0055ff&icon_color=0055ff&text_color=aaa" />
-</a>
+**[Deep Research Assistant](https://deep-research-assistant.jake-moses.com)** &nbsp; [![GitHub](https://img.shields.io/badge/-repo-0d1117?style=flat-square&logo=github)](https://github.com/jam3gw/deep-research-assistant)
 
-</div>
+Recursive question decomposition with parallel AI processing and interactive tree visualization.
+
+`Claude API` `Lambda` `React` `DynamoDB` &nbsp; **82 commits**
+
+</td>
+<td width="50%">
+
+**[Agentic Service Bot](https://agentic-service-bot.jake-moses.com)** &nbsp; [![GitHub](https://img.shields.io/badge/-repo-0d1117?style=flat-square&logo=github)](https://github.com/jam3gw/agentic-service-bot)
+
+Smart home assistant with agentic reasoning, tiered permissions, and real-time WebSocket comms.
+
+`Claude API` `WebSocket` `Chakra UI` `DynamoDB` &nbsp; **167 commits**
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+**[Calculator Buddy](https://calculator.jake-moses.com)** &nbsp; [![GitHub](https://img.shields.io/badge/-repo-0d1117?style=flat-square&logo=github)](https://github.com/jam3gw/anthropic-math-tutor)
+
+Intelligent math tutor with step-by-step AI explanations on a fully serverless architecture.
+
+`Claude API` `React` `API Gateway` `Lambda` &nbsp; **29 commits**
+
+</td>
+<td width="50%">
+
+**[jake-moses.com](https://jake-moses.com)** &nbsp; [![GitHub](https://img.shields.io/badge/-repo-0d1117?style=flat-square&logo=github)](https://github.com/jam3gw/jake-moses-com)
+
+Personal portfolio with dark/light theming, scroll animations, and editorial minimalist design.
+
+`HTML` `CSS` `JavaScript` `AWS CDK` &nbsp; **8 commits**
+
+</td>
+</tr>
+</table>
 
 ---
 
