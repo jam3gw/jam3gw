@@ -41,15 +41,16 @@ const jake = {
 ### `> stats --all`
 
 ```
-  ┌─────────────────────────────────────┐
-  │  1,280+  commits (personal + work)  │
-  │    900+  commits at startup         │
-  │    388   personal project commits   │
-  │      4   AI products shipped        │
-  │    2M+   customer contacts/year     │
-  │      3   continents launched        │
-  │     5+   years of engineering       │
-  └─────────────────────────────────────┘
+  ┌──────────────────────────────────────────┐
+  │  1,280+  commits (personal + work)       │
+  │    900+  commits at startup              │
+  │    388   personal project commits        │
+  │   960K+  lines of code written           │
+  │      4   AI products shipped             │
+  │    2M+   customer contacts/year          │
+  │      3   continents launched             │
+  │     5+   years of engineering            │
+  └──────────────────────────────────────────┘
 ```
 
 <div align="center">
@@ -88,16 +89,11 @@ const jake = {
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=jam3gw&show_icons=true&hide_border=true&title_color=0055ff&icon_color=0055ff&text_color=aaa&bg_color=0d1117&count_private=true&include_all_commits=true" width="48%" />
-<img src="https://github-readme-streak-stats.herokuapp.com?user=jam3gw&hide_border=true&background=0D1117&ring=0055FF&fire=0055FF&currStreakLabel=0055FF&sideLabels=aaa&dates=555&currStreakNum=ddd&sideNums=ddd" width="48%" />
+<img src="https://github-readme-streak-stats.herokuapp.com?user=jam3gw&hide_border=true&background=0D1117&ring=0055FF&fire=0055FF&currStreakLabel=0055FF&sideLabels=aaa&dates=555&currStreakNum=ddd&sideNums=ddd" width="95%" />
 
 </div>
 
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=jam3gw&theme=darkhub&no-frame=true&column=7&margin-w=10" width="90%" />
-
-</div>
+<br />
 
 <div align="center">
 
