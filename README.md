@@ -1,8 +1,8 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0a,50:0055ff,100:0a0a0a&height=220&section=header&text=Jake%20Moses&fontSize=50&fontColor=ffffff&fontAlignY=35&animation=twinkling&desc=Software%20Engineer%20%7C%20AI%20Builder%20%7C%20Stealth%20Startup&descSize=16&descColor=8a8a8a&descAlignY=55" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0a,50:0055ff,100:0a0a0a&height=220&section=header&text=Jake%20Moses&fontSize=50&fontColor=ffffff&fontAlignY=35&animation=twinkling&desc=Software%20Engineer%20%7C%20AI%20Builder%20%7C%20Pedestal%20AI&descSize=16&descColor=8a8a8a&descAlignY=55" width="100%" />
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=0055FF&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=70&lines=building+multi-agent+systems+%26+RAG+pipelines+at+scale;shipping+AI+products+with+Claude+Code+%26+AI+SDK;turning+complex+problems+into+things+that+work)](https://jake-moses.com)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=0055FF&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=70&lines=building+enterprise+agents+on+messy+operational+data;shipping+AI+products+with+Claude+Code%2C+Codex+%26+AI+SDK;turning+complex+workflows+into+things+that+work)](https://jake-moses.com)
 
 </div>
 
@@ -16,16 +16,16 @@
 
 ```js
 const jake = {
-  role:     "Software Engineer @ Stealth Startup",
+  role:     "Software Engineer @ Pedestal AI",
   location: "Boston, MA",
   prev:     ["Amazon Pharmacy", "Last Mile Tech", "Amazon Scout"],
   edu:      "B.S. Computer Engineering, UVA '21",
 
   building: [
-    "Multi-agent architectures",
-    "Voice & text AI agents (2M+ contacts/yr)",
-    "RAG pipelines at production scale",
-    "Eval frameworks for AI systems",
+    "Enterprise-grade AI agents",
+    "Operational AI for supply chain, retail, and manufacturing",
+    "Voice & text agents grounded in business data",
+    "RAG pipelines & eval frameworks for production systems",
   ],
 
   shipping_with: [
