@@ -29,7 +29,7 @@ const jake = {
   ],
 
   shipping_with: [
-    "Claude Code", "Claude Cowork",
+    "Claude Code", "Codex", "Claude Cowork",
     "AI SDK", "Graphite",
   ],
 };
@@ -42,9 +42,9 @@ const jake = {
 
 ```
   ┌──────────────────────────────────────────┐
-  │  1,280+  commits (personal + work)       │
-  │  1.33M+  lines of code added             │
-  │  2.38M+  total lines touched             │
+  │  2,280+  commits (personal + work)       │
+  │  2.13M+  lines of code added             │
+  │  3.39M+  total lines touched             │
   │      4   AI products shipped             │
   │    2M+   customer contacts/year          │
   │      3   continents launched             │
@@ -160,10 +160,6 @@ Personal portfolio with dark/light theming, scroll animations, and editorial min
 ---
 
 <div align="center">
-
-```
- "I don't just use AI — I build with it."
-```
 
 <img src="https://komarev.com/ghpvc/?username=jam3gw&style=for-the-badge&color=0055ff&label=PROFILE+VIEWS" />
 

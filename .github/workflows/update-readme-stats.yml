@@ -1,0 +1,57 @@
+name: Update README Stats
+
+on:
+  schedule:
+    - cron: "17 12 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Update stats
+        env:
+          GH_STATS_TOKEN: ${{ secrets.STATS_GITHUB_TOKEN || github.token }}
+          STATS_GITHUB_USERNAME: jam3gw
+          STATS_REPO_OWNERS: jam3gw,pedestal-ai,VoiceRun
+        run: node .github/scripts/update-readme-stats.mjs
+
+      - name: Validate before push
+        run: |
+          if [ ! -f package.json ]; then
+            exit 0
+          fi
+
+          corepack enable
+
+          if jq -e '.scripts.prebuild' package.json >/dev/null; then
+            pnpm prebuild
+          else
+            jq -e '.scripts.lint' package.json >/dev/null && pnpm lint
+            jq -e '.scripts["format:check"]' package.json >/dev/null && pnpm format:check
+          fi
+
+      - name: Commit README changes
+        run: |
+          if git diff --quiet -- README.md; then
+            echo "README stats are already current."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Update README stats"
+          git push
