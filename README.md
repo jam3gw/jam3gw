@@ -42,9 +42,9 @@ const jake = {
 
 ```
   ┌──────────────────────────────────────────┐
-  │  2,280+  commits (personal + work)       │
-  │  2.13M+  lines of code added             │
-  │  3.39M+  total lines touched             │
+  │  2,610+  commits (personal + work)       │
+  │  2.30M+  lines of code added             │
+  │  3.60M+  total lines touched             │
   │      4   AI products shipped             │
   │    2M+   customer contacts/year          │
   │      3   continents launched             │
@@ -141,7 +141,7 @@ Intelligent math tutor with step-by-step AI explanations on a fully serverless a
 
 Personal portfolio with dark/light theming, scroll animations, and editorial minimalist design.
 
-`HTML` `CSS` `JavaScript` `AWS CDK` &nbsp; **8 commits**
+`HTML` `CSS` `JavaScript` `AWS CDK` &nbsp; **31 commits**
 
 </td>
 </tr>
